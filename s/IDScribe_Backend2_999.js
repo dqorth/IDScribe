@@ -3534,8 +3534,8 @@ async function setVarFromLoad(lines) {
 
   patternArray = lines[9].split(",")
 
-  await drawToolButtons()
-  await changeToolDropdown()
+  drawToolButtons()
+  changeToolDropdown()
 }
 
 async function loadPattern() {
